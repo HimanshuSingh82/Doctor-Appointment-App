@@ -1,3 +1,7 @@
+import dotenv from "dotenv"
+dotenv.config({
+ path:"./.env"
+})
 import express from "express";
 import { dbConnection } from "./database/dbConnection.js";
 import { config } from "dotenv";
