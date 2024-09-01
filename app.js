@@ -19,7 +19,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: 'https://himanshu-doctor-appointment-app.netlify.app/',
+    origin: 'https://himanshu-doctor-appointment-app.netlify.app',
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
